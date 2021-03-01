@@ -1,0 +1,124 @@
+.btn-check,.btn-read,.btn-see {
+  background-color: #fc9928;
+  border: none;
+  color: white;
+}
+.btn-see {
+  margin: 0 auto;
+  width: 15%;
+  display: block;
+}
+
+.instructor-left,
+.instructor-right,
+.user-left,
+.user-right {
+  display: inline-block;
+}
+
+.instructor-img,
+.user-img {
+  height: 180px;
+  border-radius: 100px;
+}
+
+.instructor-btn,
+.user-btn,
+.be-partner,
+.be-user {
+  background-color: #fc9928;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 30px;
+}
+
+.instructor-desc,
+.user-desc {
+  margin: 10px 0 30px 0;
+  height: 30px;
+}
+.company-ads img {
+  height: 100px;
+  padding: 8px;
+}
+.university-ads img {
+  height: 100px;
+  padding: 8px;
+}
+
+.ads-heading {
+  font-size: 19px;
+  margin-left: 13px;
+}
+.ads-text {
+  font-size: 14px;
+  margin-left: 13px;
+}
+.be-partner,
+.be-user {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 25%;
+  text-align: center;
+}
+
+.menuzord .menuzord-menu > li.active > a,
+.menuzord .menuzord-menu > li:hover > a,
+.menuzord .menuzord-menu ul.dropdown li:hover > a {
+  background: #fc9928;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.top-course-thumb {
+  margin: 90px auto 0 auto;
+}
+
+.pagination-center {
+  text-align: center;
+}
+.line-bottom::after {
+  border: 1px solid #f19124!important;
+}
+
+.team-thumb img {
+  height: 215px;
+}
+.thumb-edit {
+  height: 258px;
+}
+
+.thumb-edit img {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.pdf-read {
+  width: fit-content;
+  text-align: center;
+  color: #f19124;
+  margin-top: 10px;
+}
+
+.media-body {
+  vertical-align: middle!important;
+}
+
+.volunteer-address ul li {
+  margin: 18px 0;
+}
+.media-left, .media>.pull-left {
+  padding-right: 7px!important;
+}
+.password-type {
+  margin: 0;
+  padding: 5px;
+  font-size: 10px;
+  font-family: "Roboto",sans-serif;
+
+}
+@media only screen and (max-width: 991px) {
+  .be-partner {
+    width: 35% !important;
+  }
+}
