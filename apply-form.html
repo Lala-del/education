@@ -188,104 +188,101 @@
   </header>
 
   <!-- Start main-content -->
-  <div class="main-content">
+  <section class="divider">
+    <div class="container">
+      <div class="form">
+        <ul class="tab-group">
+          <li class="tab active">
+            <a href="#signup">Registrated User</a>
+          </li>
+          <li class="tab">
+            <a href="#login">Apply without registration</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="signup">
+            <form action="/" method="POST">
+              <div class="field-wrap">
+                <label>
+                  Email Address<span class="req">*</span>
+                </label>
+                <input type="email"required autocomplete="off"/>
+              </div>
+              
+              <div class="field-wrap">
+                <label>
+                Password<span class="req">*</span>
+                </label>
+                <input type="password"required autocomplete="off"/>
+              </div>
 
-    <!-- Section: inner-header -->
-    <section class="inner-header divider layer-overlay overlay-theme-colored-7" data-bg-img="images/bg/bg1.jpg">
-      <div class="container pt-120 pb-60">
-        <!-- Section Content -->
-        <div class="section-content">
-          <div class="row"> 
-            <div class="col-md-6">
-              <h2 class="text-theme-colored2 font-36">Registration</h2>
-            </div>
+              <button type="submit" class="button button-block"/>Apply Now</button>
+            </form>
           </div>
-        </div>
-      </div>
-    </section>
-    
-    
-    <!-- Divider: Contact -->
-    <section class="divider">
-      <div class="container">
-        <div class="row pt-30">
-          <div class="col-md-4">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box left media bg-deep p-15 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
-                  <div class="media-body">
-                    <h5 class="mt-0">Our Offices Location</h5>
-                    <p>Poland Wrocław, Al. Kasztanowa 3-5 a</p>
-                    <p>Poland Wrocław, Koszcuizki 29</p>
-                    <p>Germany, Dusseldorf, Xantenerstrabe 7</p>
-                  </div>
-                </div>
+        <div id="login"> 
+          <div class="login">
+            <form action="/" method="post">
+              <div class="field-wrap">
+                <label>
+                  Name<span class="req">*</span>
+                </label>
+                <input type="email"required autocomplete="off"/>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="icon-box left media bg-deep p-15 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
-                  <div class="media-body">
-                    <h5 class="mt-0">Email Address</h5>
-                    <p>supporte@yourdomin.com</p>
-                  </div>
-                </div>
+              <div class="field-wrap">
+                <label>
+                  Surname<span class="req">*</span>
+                </label>
+                <input type="email"required autocomplete="off"/>
               </div>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <h3 class="line-bottom mt-0 mb-30">Register</h3>
-            <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="http://html.kodesolution.live/j/learnpro/v4.0/demo/includes/sendmail.php" method="post">
-
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="form-group">
-                    <label>Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="form-group">
-                    <label>Surname <small>*</small></label>
-                    <input name="form_surname" class="form-control" type="text" placeholder="Enter Surname" required="">
-                  </div>
-                </div>
-              </div>
-                
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="psw">Password <small>*</small></label>
-                      <input type="password" class="form-control reqiured password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+               <div class="field-wrap">
+                <label>
+                  Email Address<span class="req">*</span>
+                </label>
+                <input type="email"required autocomplete="off"/>
+              </div>  
+              <div class="field-wrap">
+                <label>Telephone Number</label>
+                <input type="tel" class="form-control" id="demo" placeholder="" id="telephone">
+              </div> 
+              <div class=" field">
+                 <label>* Download and fill in Application Document</label>
+                    <div class="uploading">
+                        <a href="pdf/PRINCIPLESOFBUSINESSMANAGEMENT.pdf"> Download document</a>
                     </div>
-                  </div>
               </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Telephone Number</label>
-                    <input type="tel" class="form-control" id="demo" placeholder="" id="telephone">
-                  </div>
+              <div class="field">
+                <div class="row">
+                   <div class="col-md-6">
+                     <p>s;lkdjfgdls</p>
+                   </div>
+                   <div class="col-md-6">
+                    <label for="file" class="upload-label"  required><span>Upload document</span></label>
+                   </div>
                 </div>
+               
+                <div class="downloading">
+                  <label for="file" class="upload-label"  required><span>Upload document</span></label>
+                  <input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+               </div>
               </div>
-              <div class="form-group">
-                  <input type="submit" value="Submit" class="submit">
+              <div class="field">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="file" class="upload-label"  required><span>Upload cv</span></label>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+                    </div>
+                  </div> 
+               </div>
               </div>
-
-           </form>
-    
-
-            <!-- Contact Form Validation-->
-          </div>
+             <button class="button button-block"/>Log In</button>
+            </form> 
+          </div>  
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
   <!-- end main-content -->
 
   <!-- Footer -->
@@ -410,6 +407,52 @@
     // separateDialCode: true,
     utilsScript: "build/js/utils.js",
   });
+</script>
+
+<script>
+  $('.form').find('input, textarea').on('keyup blur focus', function (e) {
+  
+  var $this = $(this),
+      label = $this.prev('label');
+
+	  if (e.type === 'keyup') {
+			if ($this.val() === '') {
+          label.removeClass('active highlight');
+        } else {
+          label.addClass('active highlight');
+        }
+    } else if (e.type === 'blur') {
+    	if( $this.val() === '' ) {
+    		label.removeClass('active highlight'); 
+			} else {
+		    label.removeClass('highlight');   
+			}   
+    } else if (e.type === 'focus') {
+      
+      if( $this.val() === '' ) {
+    		label.removeClass('highlight'); 
+			} 
+      else if( $this.val() !== '' ) {
+		    label.addClass('highlight');
+			}
+    }
+
+});
+
+$('.tab a').on('click', function (e) {
+  
+  e.preventDefault();
+  
+  $(this).parent().addClass('active');
+  $(this).parent().siblings().removeClass('active');
+  
+  target = $(this).attr('href');
+
+  $('.tab-content > div').not(target).hide();
+  
+  $(target).fadeIn(600);
+  
+});
 </script>
 
 
